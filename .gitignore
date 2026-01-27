@@ -1,0 +1,52 @@
+# ----------------------------
+# Node.js
+# ----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----------------------------
+# Cypress
+# ----------------------------
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Cypress binary cache
+.cache/
+Cypress/
+
+# ----------------------------
+# Environment & Secrets
+# ----------------------------
+.env
+.env.*
+cypress/fixtures/env/*.json
+
+# ----------------------------
+# OS / Editor
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+# ----------------------------
+# Logs & Reports
+# ----------------------------
+logs/
+reports/
+mochawesome-report/
+
+# ----------------------------
+# Coverage
+# ----------------------------
+coverage/
+
+# ----------------------------
+# Temporary files
+# ----------------------------
+*.tmp
+*.temp
