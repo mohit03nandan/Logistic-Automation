@@ -50,3 +50,5 @@ coverage/
 # ----------------------------
 *.tmp
 *.temp
+# Cypress env secrets
+cypress.env.json
