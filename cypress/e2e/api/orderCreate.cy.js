@@ -30,8 +30,9 @@ describe("Shipment Creation API", () => {
 
           // 🔁 STEP 4: CREATE ORDERS
           Cypress._.times(orderCount, () => {
+            cy.wait(1500);
             const payload = Cypress._.cloneDeep(orderPayload);
-
+             
             payload.reference_code = generateRefCode();
             payload.original_reference_code = generateRefCode();
 
