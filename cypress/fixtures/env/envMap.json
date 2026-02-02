@@ -1,5 +1,6 @@
 {
   "staging": "https://zorms.zfwhospitality.in",
   "preprod": "https://preprod.zorms.zfwhospitality.in",
-  "prod": "https://zorms.zippee.delivery"
+  "prod": "https://zorms.zippee.delivery",
+  "stagingweb":"https://staging.zfwhospitality.in/"
 }
